@@ -9,10 +9,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'NewPassword',
-  database: 'todo_db'
+  host: 'sql5.freesqldatabase.com',
+  user: 'sql5784502',
+  password: 'jPlA7PQzNE',
+  database: 'sql5784502'
 });
 
 db.connect(err => {
